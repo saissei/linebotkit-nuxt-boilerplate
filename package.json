@@ -1,0 +1,46 @@
+{
+  "name": "LINEBOT-BOILERPLATE-NUXT",
+  "version": "1.0.0",
+  "description": "My impressive Nuxt.js project",
+  "author": "issei.kariya &lt;issei.kariya@zerobillbank.com&gt;",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt start",
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --ext .ts,.js,.vue --fix --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.4",
+    "@nuxt/typescript-runtime": "0.3.8",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "express": "4.17.1",
+    "node-config-nuxt": "1.0.1",
+    "nuxt": "^2.0.0",
+    "nuxt-config": "^1.0.1",
+    "vue-property-decorator": "8.3.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "0.5.6",
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-config-typescript": "1.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@types/config": "0.0.36",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-nuxt": "^0.5.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.1.0",
+    "prettier": "^1.16.4",
+    "ts-node-dev": "1.0.0-pre.44",
+    "vue-jest": "^4.0.0-0"
+  }
+}
